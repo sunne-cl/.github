@@ -25,9 +25,9 @@ jobs:
         with:
           github_user_name: vexikoff
           outputs: |
-            github-snake.svg
-            github-snake-dark.svg?palette=github-dark
-            ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            github-snake-vxk.svg
+            github-snake-dark-vxk.svg?palette=github-dark
+            ocean-vxk.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
